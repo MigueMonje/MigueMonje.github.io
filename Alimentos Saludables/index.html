@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Recetas</title>
+        
+        <!-- Normalize -->
+        <link rel="stylesheet" href="css/normalize.css">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- fire base y firestore -->
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+    </head>
+    <body>
+        <form action="" id="input">
+            <div class = "group">
+                <p class="lable">nombre: </p>
+                <input type="text" name="" id="name">
+            </div>
+            <div class = "group">
+                <p class="lable">cantidad: </p>
+                <input type="text" name="" id="cuant">
+            </div>
+            <button type="submit">Generar receta</button>
+            <div id="out" class = "table">
+                
+            </div>
+        </form>
+        <a href="edit.html">Editar los productos</a>
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Editar</title>
+	
+		<!-- Normalize -->
+        <link rel="stylesheet" href="css/normalize.css">
+        
+        <!-- style -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- fire base y firestore -->
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+	</head>
+	<body>
+		<form action="" id = "input">
+			<div class="group">
+				<p class="lable">Nombre del producto:</p>
+				<input type="text" name="" id="name">
+			</div>
+			<button type="submit">Abrir/Crear</button>
+			<div class = "ocult" id = "pInter">
+				<h3 id = "sName"></h3>
+				<div class="table" id = "sVal">
+					
+				</div>
+				<br>
+				<button id="sAdd" type = "button">+</button>
+				<button id="sSub" type = "button">-</button>
+				<br><br>
+				<button id="sDelete" type = "button">borrar</button>
+				<button id="sSave" type = "button">guardar</button>
+			</div>
+		</form>
+		<script src="js/edit.js"></script>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    font-family: Arial;
+}
+
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+form>*{
+	display: block;
+}
+
+.group .lable{
+    display: inline-block;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 50px;
+	min-width: 20%;
+}
+.right{
+	text-align: right;
+}
+.left{
+	text-align: left;
+}
+.ocult{
+	display: none;
+}
